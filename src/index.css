@@ -4,9 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --color-cursor: 220, 90, 90;
+    --cursor-outline-shade: 0.3;
+    --cursor-size: 10px;
+    --cursor-outline-size: 12px;
+  }
+
 *{
     scroll-behavior: smooth;
     transition: all;
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+
+
+
+  

@@ -1,8 +1,14 @@
 import { useGSAP } from "@gsap/react"
 import { products } from "../utils/product"
 import gsap from "gsap"
+import Banner from "./Banner"
+import { useState } from "react"
+import { AiFillCaretDown} from "react-icons/ai"
 
 const Product = () => {
+  const [showAll, setShowAll] = useState(false);
+  const displayedProducts = showAll ? products : products.slice(0, 3);
+
   useGSAP(()=> {
    gsap.to('#topProducts',{
     scrollTrigger: {
@@ -16,12 +22,12 @@ const Product = () => {
     stagger: 0.3
 
    })
-  }, [])
+  }, [displayedProducts])
   return (
     <>
-
+<Banner title="Products You Might Need"/> 
 <div  className="flex flex-wrap w-3/4 m-auto">
-   {products.map((item)=> (
+   {displayedProducts.map((item)=> (
     <div id="topProducts" key={item.id}  className="w-96 ml-4 mr-4 mt-2 flex-1 opacity-0 translate-x-10" >
     <a href="#" className="group relative block overflow-hidden sm:w-52 xl:w-96">
   <button
@@ -70,9 +76,22 @@ const Product = () => {
     </div>
 
     ))} 
+
     </div>
+        {!showAll && <div className="flex justify-center mt-4">
+          <button
+            onClick={() => setShowAll(true)}
+            className="bg-blue-500 text-white px-4 py-2 rounded-md transition-all"
+          >
+        
+            <div className="flex items-center">
+              Show All Products <AiFillCaretDown className="ml-2" />
+            </div>
+       
 
-
+          </button>
+        </div>
+      }
     </>
 
   )

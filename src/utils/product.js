@@ -1,50 +1,44 @@
+import cctv from '../assets/products/cctv.jpeg'
+import ezvizWireless from '../assets/products/ev-viz-c3n.jpg'
+import flatPanel from '../assets/products/flat-panel.jpeg'
+import mobilePrinting from '../assets/products/mobile-printing.jpeg'
+import ezvizC6n from '../assets/products/ev-viz-c6n.jpg'
+import ezvizTY1 from '../assets/products/ev-viz-ty1.jpg'
+import hikANPR from '../assets/products/hik-vision-ANPR.jpeg'
+import juctionBox from '../assets/products/juction-box.jpeg'
+import phantum from '../assets/products/phantum.jpeg'
+import printer from '../assets/products/printer.jpeg'
+import serverRack from '../assets/products/Server-rack.jpeg'
+import toner from '../assets/products/toner.jpeg'
+
+
+
+
 export const newProducts = [{
 id:1,
-name:'product 1',
+name:'Ezviz',
 productNew: true,
-imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+imgUrl: cctv,
 price:100
-
 },
 {
     id:2,
-    name:'product 1',
-    imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
-    price:100
+    name:'Ezviz wireless',
+    imgUrl: ezvizWireless,
+    price:200
 
 },
 {
     id:3,
-    name:'product 1',
-    imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
-    price:100
+    name:'Interactive flat panel board',
+    imgUrl: flatPanel,
+    price:300
 
 },
 {
     id:4,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
-    price:100
-
-},
-{
-    id:5,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
-    price:100
-
-},
-{
-    id:6,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
-    price:100
-
-},
-{
-    id:7,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+    name:'Wireless Printer',
+    imgUrl: mobilePrinting,
     price:100
 
 },
@@ -53,50 +47,64 @@ price:100
 
 export const products = [{
 id:1,
-name:'product 1',
-imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+name:'EzViz C6N',
+imgUrl: ezvizC6n,
 price:100
 
 },
 {
     id:2,
-    name:'product 1',
-    imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+    name:'Ezviz ty1',
+    imgUrl: ezvizTY1,
     price:100
 
 },
 {
     id:3,
-    name:'product 1',
-    imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+    name:'Hik Vision ANPR',
+    imgUrl: hikANPR,
     price:100
 
 },
 {
     id:4,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+    name:'Juction Box',
+    imgUrl: juctionBox,
     price:100
 
 },
 {
     id:5,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+    name:'Phantum',
+       imgUrl: phantum,
     price:100
 
 },
 {
     id:6,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+    name:'Printer',
+       imgUrl: printer,
     price:100
 
 },
 {
     id:7,
-    name:'product 1',
-       imgUrl: 'https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80',
+    name:'Server Reack',
+       imgUrl: serverRack,
+    price:100
+
+},
+{
+    id:8,
+    name:'Printer Toner',
+       imgUrl: toner,
+    price:100
+
+},
+{
+    id:9,
+    name:'Flat Panel',
+       imgUrl: flatPanel,
     price:100
 
 },

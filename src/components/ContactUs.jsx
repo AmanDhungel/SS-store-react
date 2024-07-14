@@ -1,7 +1,11 @@
+import Banner from "./Banner"
+
 const ContactUs = () => {
   return (
     <>
-    <div className="overflow-hidden h-[70rem]">
+      <Banner path="/" title="Contact Us"/> 
+
+    <div id="contact" className="overflow-hidden h-[70rem]">
 
     <div className="mt-8 xl:-mt-20 flex justify-center items-center w-screen h-screen bg-white">
 	<div className="container mx-auto my-4 px-4 lg:px-20">
@@ -35,9 +39,8 @@ const ContactUs = () => {
 				className="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-blue-900 rounded-2xl">
 				<div className="flex flex-col text-white">
 					<h1 className="font-bold uppercase text-4xl my-4">Drop in our office</h1>
-					<p className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-						tincidunt arcu diam,
-						eu feugiat felis fermentum id. Curabitur vitae nibh viverra, auctor turpis sed, scelerisque ex.
+					<p className="text-gray-400">We Are Located At Bardibas, We will be more than happy to serve you 
+            on the Site.
 					</p>
 
 					<div className="flex my-4 w-2/3 lg:w-1/2">
@@ -46,7 +49,7 @@ const ContactUs = () => {
             </div>
             <div className="flex flex-col">
               <h2 className="text-2xl">Main Office</h2>
-              <p className="text-gray-400">5555 Tailwind RD, Pleasant Grove, UT 73533</p>
+              <p className="text-gray-400">Bardibas-1, Nepal</p>
             </div>
           </div>
           
@@ -55,18 +58,18 @@ const ContactUs = () => {
               <i className="fas fa-phone-alt pt-2 pr-2" />
             </div>
             <div className="flex flex-col">
-              <h2 className="text-2xl">Call Us</h2>
-              <p className="text-gray-400">Tel: xxx-xxx-xxx</p>
-              <p className="text-gray-400">Fax: xxx-xxx-xxx</p>
+              <h2 className="text-2xl">Call Us / Message Us</h2>
+              <p className="text-gray-400 w-96">Tel:+977 984-4418964</p>
             </div>
           </div>
           
-          <div className="flex my-4 w-2/3 lg:w-1/2">
-            <a href="https://www.facebook.com/ENLIGHTENEERING/" target="_blank" rel="noreferrer" className="rounded-full bg-white h-8 w-8 inline-block mx-1 text-center pt-1">
-              <i className="fab fa-facebook-f text-blue-900" />
-            </a>
-            <a href="https://www.linkedin.com/company/enlighteneering-inc-" target="_blank" rel="noreferrer" className="rounded-full bg-white h-8 w-8 inline-block mx-1 text-center pt-1">
-              <i className="fab fa-linkedin-in text-blue-900" />
+          <div className="flex my-4 w-2/3 lg:w-1/2 md:gap-5">
+          Message Us in Facebook
+          <a href="https://www.facebook.com/people/S-S-Store-Suppliers-Bardibas/100064290001230/?_rdr" target="_blank" className="text-gray-400 hover:text-gray-500">
+                <span className="sr-only">Facebook</span>
+                <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                </svg>
             </a>
           </div>
         </div>

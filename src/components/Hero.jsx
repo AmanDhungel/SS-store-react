@@ -4,6 +4,11 @@ import heroBackground from '../assets/videos/SS-Store.mp4'
 import heroBackgroundSmall from '../assets/videos/ss-store-mobile.mp4'
 import { useState } from "react"
 import { useEffect } from "react"
+import Footer from "./Footer"
+import ContactUs from "./ContactUs"
+import Services from "./Services"
+import Product from "./Product"
+import TopProducts from "./TopProducts"
 
 const Hero = () => {
 
@@ -81,7 +86,11 @@ id="Hero"
 </section>
 
 
-
+<TopProducts />
+<Product />
+<Services/>
+<ContactUs/>
+<Footer/>
   </>
 
   )
